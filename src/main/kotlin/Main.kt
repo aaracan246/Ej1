@@ -14,7 +14,9 @@ En el programa principal, crear varios rectángulos. Mostarlos y mostrar por pan
 class Rectangle(private val base: Double, private val height: Double) {
 
     init {
-        require(this.base > 0 && this.height > 0) { "La base y la altura deben ser mayores que 0." }
+        require(this.base > 0 && this.height > 0) {
+            "La base y la altura deben ser mayores que 0."
+        }
     }
 
     var aoe = 0.0
