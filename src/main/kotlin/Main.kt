@@ -7,7 +7,8 @@ Los atributos no se podrán modificar, aunque si consultar. Por último, tendrá
 
 Opcionalmente se puede crear el método toString() para mostrar información sobre el rectángulo: override fun toString() = "". (Pulsa Ctrl+o)
 
-En el programa principal, crear varios rectángulos. Mostarlos y mostrar por pantalla sus áreas y perímetros.*/
+En el programa principal, crear varios rectángulos. Mostarlos y mostrar por pantalla sus áreas y perímetros.
+*/
 
 
 class Rectangle(private val base: Double, private val height: Double) {
